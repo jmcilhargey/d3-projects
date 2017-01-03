@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box
+}
+
+svg {
+  display: block;
+}
+
+.bar {
+  fill: #1a237e;
+}
+
+.bar:hover {
+  fill: #ff6d00 ;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 140px;
+  height: 60px;
+  padding: 10px;
+  font-size: 1.1em;
+  color: #ffffff;
+  background: #1a237e;
+}
