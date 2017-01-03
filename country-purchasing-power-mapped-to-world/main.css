@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  box-shadow: 0 5px 10px #cccccc;
+}
+
+.overlay {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+h1 {
+  color: #616161;
+  text-align: center;
+  margin: 0;
+  height: 50px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  font: 14px;
+  background: none;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
