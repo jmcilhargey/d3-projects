@@ -1,0 +1,40 @@
+body {
+  shape-rendering: crispEdges;
+}
+
+#chart {
+  margin-top: 50px;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+text {
+  fill: #424242;
+  stroke: none;
+}
+
+.day {
+  fill: #fff;
+  stroke: #bdbdbd;
+}
+
+.month {
+  fill: none;
+  stroke: #757575;
+  stroke-width: 2px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.caption {
+  font-size: 18px;
+}
+
+.tick text {
+  font-size: 14px;
+}
