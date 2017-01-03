@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.links line {
+  stroke: #bdbdbd;
+  stroke-opacity: 0.8;
+}
+
+.nodes circle {
+  stroke: #ffffff;
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+div.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  font: 12px;
+  background: transparent;
+}
