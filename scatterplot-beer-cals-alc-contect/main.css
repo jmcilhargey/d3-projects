@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box
+}
+
+svg {
+  display: block;
+}
+
+.dot {
+  cursor: pointer;
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  height: 70px;
+  padding: 10px;
+  font-size: 1em;
+  color: #424242;
+  background: #f5f5f5;
+}
